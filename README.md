@@ -7,6 +7,8 @@ A lightweight Python utility for exporting MIDI tracks from an **Ableton Live Se
 
 The script provides a simple macOS graphical interface for selecting the Ableton file, choosing the destination folder, and selecting which MIDI tracks to export.
 
+Tested with Ableton Live v12.4 on macOS.
+
 ## Features
 
 * Supports Ableton Live `.als` files
