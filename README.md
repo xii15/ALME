@@ -1,5 +1,5 @@
 # ALME
-Ableton Live MIDI Exporter - exports MIDI tracks including tempo and time-signature changes
+Ableton Live MIDI Exporter - exports MIDI tracks including **tempo and time-signature changes**
 
 # Ableton Live MIDI Exporter
 
