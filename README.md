@@ -1,7 +1,7 @@
 # ALME
 Ableton Live MIDI Exporter - exports MIDI tracks including tempo and time-signature changes
 
-# Ableton Live → MIDI Exporter
+# Ableton Live MIDI Exporter
 
 A lightweight Python utility for exporting MIDI tracks from an **Ableton Live Set (`.als`)** or an **Ableton XML export (`.xml`)** as independent standard MIDI (`.mid`) files.
 
