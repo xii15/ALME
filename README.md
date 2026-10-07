@@ -19,8 +19,8 @@ The script provides a simple macOS graphical interface for selecting the Ableton
   * Note duration
   * Note-on velocity
   * Note-off velocity
-  * Tempo
-  * Time signatures
+  * **Tempo**
+  * **Time signatures**
   * Track names
 * Converts Ableton's floating-point velocities to standard MIDI integers
 * Prevents unrelated MIDI data, such as **Groove Pool clips**, from being exported accidentally
@@ -109,24 +109,34 @@ The script does not require Ableton Live to be running.
 
 ## Requirements
 
-* Python 3
-* [`mido`](https://mido.readthedocs.io/)
+### Python
+
+Python can be installed from [python.org](https://www.python.org/).
+
 * Tkinter
 
-Install Mido with:
+### Mido
+
+Mido is a Python library.
+* [`mido`](https://mido.readthedocs.io/)
+
+Install with the terminaL
 
 ```bash
 pip install mido
 ```
+or
 
-On macOS, Python can be installed from [python.org](https://www.python.org/).
+```bash
+python3 install mido
+```
 
 ## Usage
 
-Run:
+Run (in Terminal):
 
 ```bash
-python3 ableton_to_midi_gui.py
+python3 alme_v7.py
 ```
 
 Then follow the graphical dialogs.
