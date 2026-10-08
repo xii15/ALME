@@ -138,7 +138,7 @@ python3 install mido
 Run (in Terminal):
 
 ```bash
-python3 alme_v7.py
+python3 alme_v8.py
 ```
 
 Then follow the graphical dialogs.
