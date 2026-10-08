@@ -23,6 +23,7 @@ Tested with Ableton Live v12.4 on macOS.
   * Note-off velocity
   * **Tempo**
   * **Time signatures**
+  * MIDI CC information
   * Track names
 * Converts Ableton's floating-point velocities to standard MIDI integers
 * Prevents unrelated MIDI data, such as **Groove Pool clips**, from being exported accidentally
