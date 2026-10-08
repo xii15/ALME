@@ -110,7 +110,7 @@ When the script is launched, it provides macOS dialogs to:
 
 The script does not require Ableton Live to be running.
 
-![alt text](https://github.com/xii15/ALME/blob/e.png?raw=true)
+![example](https://github.com/xii15/ALME/e.png?raw=true)
 
 ## Requirements
 
