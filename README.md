@@ -3,7 +3,7 @@ Ableton Live MIDI Exporter - exports MIDI tracks including **tempo and time-sign
 
 # Ableton Live MIDI Exporter
 
-A lightweight Python utility for exporting MIDI tracks from an **Ableton Live Set (`.als`)** or an **Ableton XML export (`.xml`)** as independent standard MIDI (`.mid`) files.
+A lightweight Python utility for exporting MIDI tracks from an Ableton Live Set (.als) or an Ableton XML export (.xml) as independent standard MIDI (.mid) files.
 
 The script provides a simple macOS graphical interface for selecting the Ableton file, choosing the destination folder, and selecting which MIDI tracks to export.
 
@@ -11,9 +11,9 @@ Tested with Ableton Live v12.4 on macOS.
 
 ## Features
 
-* Supports Ableton Live `.als` files
-* Supports Ableton XML `.xml` files
-* Exports selected MIDI tracks as individual `.mid` files
+* Supports Ableton Live .als files
+* Supports Ableton XML .xml files
+* Exports selected MIDI tracks as individual .mid files
 * Preserves:
 
   * MIDI note pitch
@@ -56,11 +56,11 @@ The script also preserves Ableton's `OffVelocity` values for MIDI note-offs.
 
 ## Avoiding Groove Pool Data
 
-Ableton Live's XML structure can contain `MidiClip` elements that are not part of an actual MIDI track. For example, MIDI material belonging to the **Groove Pool** can also contain `MidiNoteEvent` elements.
+Ableton Live's XML structure can contain `MidiClip` elements that are not part of an actual MIDI track. For example, MIDI material belonging to the **Groove Pool** can also contain MidiNoteEvent elements.
 
-A simple search for all `MidiClip` elements in the XML could therefore export MIDI that does not belong to the user's tracks.
+A simple search for all MidiClip elements in the XML could therefore export MIDI that does not belong to the user's tracks.
 
-This script avoids that problem by searching for MIDI clips **only within actual `MidiTrack` elements**.
+This script avoids that problem by searching for MIDI clips **only within actual MidiTrack elements**.
 
 As a result, only MIDI data belonging to the selected tracks is exported.
 
@@ -68,8 +68,8 @@ As a result, only MIDI data belonging to the selected tracks is exported.
 
 The script accepts either:
 
-* `.als` — Ableton Live Set
-* `.xml` — Ableton XML file
+* .als — Ableton Live Set
+* .xml — Ableton XML file
 
 Ableton `.als` files are normally gzip-compressed XML. The script reads this format directly and also includes a ZIP fallback.
 
